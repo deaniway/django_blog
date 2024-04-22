@@ -10,6 +10,7 @@ coverage.xml
 *.ps1
 .env
 .ide
+.idea
 .venv
 test.py
 /.venv/
