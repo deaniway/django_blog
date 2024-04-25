@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 def index(request):
-    return HttpResponse('article')
+    app_name = 'DJANGO BLOG FOR DENISKA'  # Замените на реальное название вашего приложения
+    return render(request, 'articles/index.html', {'app_name': app_name})
