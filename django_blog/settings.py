@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_blog'  # Django будет знать, что шаблоны и код у нас находятся в данном пакете
+    'django_blog',  # Django будет знать, что шаблоны и код у нас находятся в данном пакете
+    'django_blog.article'
 ]
 
 MIDDLEWARE = [
