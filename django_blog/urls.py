@@ -9,6 +9,7 @@ from django_blog import views
 
 urlpatterns = [
     path('', views.index),
+    path('about/', views.about, name='about'),
     path('article/', include('django_blog.article.urls')),  # связать urlpatterns приложения с urlpatterns проекта
     path('admin/', admin.site.urls),
 ]
